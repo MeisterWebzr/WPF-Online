@@ -16,7 +16,6 @@ var bmiPercentage = mass / totalHeight;//assigning level 2 calculation to set Qu
 var results = Math.round(bmiPercentage * 100);//calculting 
 var bmiCategories = ["Normal weight (18.5 -29.0) ", " Overweight (29.9-34.9)", "Obesity (35 or greater) "];//declared the array bmicategory for array affordances
 
-/*alert("Your Quetelet Index is" + " " + results + "%" );//alerting user of results per  details inputed */
 
 alert("Based on your input of" + " " + height + "ft" + " " + inches +"in" + " " + "with body mass of" + " " + mass + "lbs" + " " + "Your Quetelet Index is" + " " + results + "%");//alerted details of user input
 alert(bmiCategories);
