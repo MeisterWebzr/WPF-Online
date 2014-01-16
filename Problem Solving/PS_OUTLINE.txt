@@ -1,0 +1,64 @@
+5 STEP PROBLEM SOLVING 
+
+1.DEFINE THE PROBLEM
+
+
+knowing the problem inside and out is half the battle.
+
+if i had an hour to solve the problem, i'd spend 55 minutes on the problem and the other 5 min on the solution.
+
+What are the assumptions being made?
+What are the parameters being made?
+What goal are wen trying to meet?
+
+
+   Ways to better understand the problem...
+      -try visualizing the problem by sketching it out on paper
+      -Describe the problem in your own words
+
+if your able to appropriately articulate the problem to someone it betters your chance in the solution coming to light
+
+
+
+
+2.BREAK THE PROBLEM DOWN APART INTO SMALLER SECTIONS
+
+Identify the MAIN GOALS and then the SUB-GOALS.
+
+
+Identify the constraints for each SUB-GOAL.
+
+
+
+3. Identifying potential solutions
+
+There is almost always more than one way to solve the problem.
+	Ways to identify potential solutions.
+
+		1. Look at the sub-problems to see if you can create a solution
+		2. Can you generalize to make the solution work for the whole problem?
+		3. Don't worry about if the actually work or not. Just brainstorm possible directions.
+
+
+
+4.  Here's where you brake down the identified potential solutions. Does it work, or does it work for all of them.
+
+		1. which solution meet the goals?
+		2. Does the solution work for all classes?
+		3. There may be more than one solution. Rank them to see which works best.
+
+
+
+
+5. How will it work?
+
+test test test test and test!
+
+
+============OVERVIEW============THE PROCESS================OVERVIEW=========
+					
+					1.Define the problem 
+					2.Break the problem apart into smaller problems
+					3.Identify potential solutions
+					4.Evaluate the potential solutions to select the best one
+					5.Develop an action plan to implement the best solution
