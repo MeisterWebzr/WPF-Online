@@ -95,12 +95,57 @@ console.log(b);
  
  
  
- //
+ //Concatenating Strings- Combining Strings
  
  
+/* 
+ var firstName = "Otto";
+ var lastName = "Burroughs";
+ var space= " ";
+ var fullName = firstName +space+ lastName;
  
+ console.log(fullName);
+ 
+ 
+ alert(fullName);
+ 
+ 
+ */
+ 
+ /*
+ var a = 100000000000;
+ var b = 200;
+ var result = a * b;
+ 
+ console.log(result);
+ 
+ alert(result);
 
 
+
+*/
+
+
+//End Cocatenating Strings 
+
+
+//Casting- Treating Strings like numbers
+
+/*
+
+var areaCode = 407;
+var firstPart = 203;
+var secPart = 4529;
+var hash = "-";
+var phoneNo = "(" + areaCode + ")" +" " + firstPart + hash + secPart;
+
+console.log(phoneNo);
+
+alert(phoneNo);
+
+*/
+
+//End Casting
 
 
 
