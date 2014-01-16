@@ -46,12 +46,70 @@ var phrase = 'I don\'t know \n You\'ll have to speak with the professor';
 
 //Arrays Collections, Lists and Values.. oh my!
 
-
+/*
 var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "45"];
 
 muppetNames[1] = "OTTO";
 
 console.log(muppetNames[0]); //lets see the variables in the array list
 
+*/
+//End of Array list
 
-//End of Array list'''
+
+
+//Basic Expressions Caluculating with & changing the value of variables
+
+
+/*
+var a = 2; //sets up our variable a and defines it with 2
+var b;
+b = a + 3; //add 3 to a
+
+console.log(b);
+
+*/
+
+//End Basic Expressions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
