@@ -1,4 +1,4 @@
-//JavaScript
+//Expressions
 
 /*
 var yearBorn = 1955;
@@ -71,6 +71,34 @@ console.log(b);
 */
 
 //End Basic Expressions
+
+
+
+//Artihmetic Operators- Adding it all up together
+
+
+
+//area of triangle is half of the width times the height
+
+/*
+ var width = 8;
+ var height = 7;
+ var area = width * height/2;
+ 
+ 
+ 
+ console.log(area);
+ 
+ */
+ 
+ //End Artihmetic Operators
+ 
+ 
+ 
+ //
+ 
+ 
+ 
 
 
 
