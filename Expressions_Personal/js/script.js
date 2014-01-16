@@ -14,7 +14,7 @@ var length = 12;//declaring the value of length for inches to be added
 var totalHeight = height * length + inches;//assigning level one calculation to declare total height
 var bmiPercentage = mass / totalHeight;//assigning level 2 calculation to set Quetelet Index or BMI
 var results = Math.round(bmiPercentage * 100);//calculting 
-var details = new Array( height + " " + "inches tall");
+var details = ["Normal 18.5 -29.0", ;]
 
 /*alert("Your Quetelet Index is" + " " + results + "%" );//alerting user of results per  details inputed */
 
