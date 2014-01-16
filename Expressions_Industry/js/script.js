@@ -13,7 +13,7 @@ var pricePages = pages * 150.00;//assigning value of price per html page
 var priceImages = images * 40.00;//assigning value to price per images
 var priceLinks = links * 5.00;//decelared value for price per links
 var estimateTotal = priceLinks + priceImages + pricePages;//assigned the estimator calculations for total package details
-var packageDetails = prompt("Your package includes" + " " + pages + "html pages" + " " + images + " " + "images" + " " + links + "links")//assigned concatenate string of variables for package details
+var packageDetails = alert("Your package includes" + " " + pages + "html pages" + " " + images + " " + "images" + " " + links + "links")//assigned concatenate string of variables for package details
 
 
 
