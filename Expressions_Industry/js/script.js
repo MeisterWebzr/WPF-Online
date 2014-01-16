@@ -18,8 +18,8 @@ var packageDetails = prompt("Your package includes" + " " + pages + "html pages"
 
 
 
-console.log(packageDetails)//calling out the print log for package details here is where all the detials of clients input will be logged
-console.log(estimateTotal);
+console.log(packageDetails)//calling out the print log for package details | here is where all the detials of clients input will be logged
+console.log(estimateTotal);//calling out the print log for estimator total | here is where the estimate of all items will be logged
 
 
 
