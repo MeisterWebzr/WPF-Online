@@ -149,7 +149,17 @@ alert(phoneNo);
 
 
 
+//Assignment Operators- An exprssion with an assignmnet
 
+
+var a = 3;
+ 
+a ++ 1; // a = a + 1  //a = += 1
+ 
+console.log(a);
+
+
+alert(a)
 
 
 
