@@ -52,10 +52,10 @@ function calculateMortgage( ){//setting function for mortgage calculator
 
 	var btn = document.getElementById("btnCalculate");//linking btn from html to code with getElementById
 btn.onClick = function( ){
-	var cost = document.GetElementById("inCost").value; //declaring variables for cost
-	var downPayment = document.GetElementById("inDown").value;//declaring variable for down payment
-}	var interest = document.GetElementById("inAPR").value;//declaring variable for intrest
-	var term = document.GetElementById("inTime").value;//declaring variable for term 
+	var cost = document.getElementById("inCost").value; //declaring variables for cost
+	var downPayment = document.getElementById("inDown").value;//declaring variable for down payment
+}	var interest = document.getElementById("inAPR").value;//declaring variable for intrest
+	var term = document.getElementById("inTime").value;//declaring variable for term 
 
 
 	console.log(cost, downPayment, interest, term);//calling out log for testing to see if code is correct
