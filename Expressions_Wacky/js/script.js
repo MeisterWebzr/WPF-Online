@@ -5,12 +5,12 @@
 
 //This calculator will help you calculate a loan for 
 
-//The Formula: c = ((p * r) * Math.pow((1 + r), n)) / ( Math.pow((1+4), n) - 1)
+//The Formula: c = (r * p) /  (1 - (Math.pow((1 + r), (-n))));
 //@param p float Amount borrowed
 //@param r interest, as a percentage
 //@param n term in years
 function calculateMortgage( ){//setting function for mortgage calculator
-	var monthlyPayments = null;//Declaring variable monthly payment
+	
 
 
 	//converting this percentage to a decimal
@@ -20,31 +20,49 @@ function calculateMortgage( ){//setting function for mortgage calculator
 	//convert years to months
 	n = yearsToMonths(n);//parameters set for n = conversion of years to months
 	
-	//convert data with formula for obtaining monthly payment
-	return ((p * r) * Math.pow((1 + r), n)) / ( Math.pow((1 + 4), n) - 1);
 	
-		 console.log("R", p);
-		 console.log("R", r);
-		 console.log("R", n);
 	
+		//convert data with formula for obtaining monthly payments
+		var pmt = (r * p) /  (1 - (Math.pow((1 + r), (-n))));
 
-	return monthlyPayments;
+		return parseFloat(pmt.toFixed(2));//getting rid of the to digit on payments with parseFloat
+
+
+		 console.log("R", p);//call out log for para p
+		 console.log("R", r);//call out log for para r 
+		 console.log("R", n);//call out log for para n	
+
+	return monthlyPayments;//returning to varibale monthly
  
 
 } 
  
 
- function percentToDecimal(percent){
+ function percentToDecimal(percent){ //function setup for converting percent of intrest  rate to decimal
 
-	return (percent/12) / 100;
+	return (percent/12) / 100; //assigning calculation for conversion of input
 
 
  }
 
- function yearsToMonths(year){
+ function yearsToMonths(year){ //functiomn setup for converting yeard to months
 
- 	return year * 12;
+ 	return year * 12;//assigning calculation for years to months
  }
+
+var btn = document.getElementById("btnCalculate"); 
+btn.onClick = function( ){
+
+	var cost = document.GetElementById("inCost"); //declaring variables for cost
+	var downPayment = document.GetElementById("inDown");//declaring variable for down payment
+}
+
+//
+var amountBorrowed = cost - downPayment
+
+var pmt = calculateMortgage(amountBorrowed, intrest, term);
+
+
 
 
  
