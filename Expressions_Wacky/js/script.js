@@ -49,6 +49,7 @@ function calculateMortgage( ){//setting function for mortgage calculator
 
  	var htmlEl - document.getElementById("outMonthly");//HTML get for posting payment in readable font on html
 
+ 	htmlEl = .innerText = "$" + payment;
  }
 
  function yearsToMonths(year){ //functiomn setup for converting yeard to months
