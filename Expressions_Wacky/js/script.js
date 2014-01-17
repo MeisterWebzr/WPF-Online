@@ -45,9 +45,9 @@ function calculateMortgage( ){//setting function for mortgage calculator
 
 
 
- function postPayments(payment){
+ function postPayments(payment){//function for psoting payment on html side
 
- 	var htmlEl - document.getElementById("outMonthly");
+ 	var htmlEl - document.getElementById("outMonthly");//HTML get for posting payment in readable font on html
 
  }
 
