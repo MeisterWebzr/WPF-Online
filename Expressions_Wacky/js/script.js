@@ -54,8 +54,11 @@ function calculateMortgage( ){//setting function for mortgage calculator
 btn.onClick = function( ){
 	var cost = document.GetElementById("inCost").value; //declaring variables for cost
 	var downPayment = document.GetElementById("inDown").value;//declaring variable for down payment
-}	var interest = document.GetElementById("inAPR").value;//decalring variable for intrest
+}	var interest = document.GetElementById("inAPR").value;//declaring variable for intrest
+	var term = document.GetElementById("inTime").value;//declaring variable for term 
 
+
+	
 	
 	var amountBorrowed = cost - downPayment; //declaring varibales for amount borrowed
 	
