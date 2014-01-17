@@ -57,10 +57,11 @@ btn.onClick = function( ){
 	var downPayment = document.GetElementById("inDown");//declaring variable for down payment
 }
 
-//
-var amountBorrowed = cost - downPayment 
+	//declaring varibales for amount borrowed
+	var amountBorrowed = cost - downPayment; 
+	var interest
 
-var pmt = calculateMortgage(amountBorrowed, intrest, term);
+	var pmt = calculateMortgage(amountBorrowed, interest, term);
 
 
 
