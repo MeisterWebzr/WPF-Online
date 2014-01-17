@@ -47,9 +47,9 @@ function calculateMortgage( ){//setting function for mortgage calculator
 
  function postPayments(payment){//function for psoting payment on html side
 
- 	var htmlEl - document.getElementById("outMonthly");//HTML get for posting payment in readable font on html
+ 	var htmlEl = document.getElementById("outMonthly");//HTML get for posting payment in readable font on html
 
- 	htmlEl = .innerText = "$" + payment;
+ 	htmlEl.innerText = "$" + payment;
  }
 
  function yearsToMonths(year){ //functiomn setup for converting yeard to months
@@ -57,8 +57,8 @@ function calculateMortgage( ){//setting function for mortgage calculator
  	return year * 12;//assigning calculation for years to months
  }
 
-	var btn = document.getElementById("btnCalculate");//linking btn from html to code with getElementById
-btn.onClick = function( ){
+var btn = document.getElementById("btnCalculate");//linking btn from html to code with getElementById
+btn.onClick = function(pmt){
 	var cost = document.getElementById("inCost").value; //declaring variables for cost
 	var downPayment = document.getElementById("inDown").value;//declaring variable for down payment
 	var interest = document.getElementById("inAPR").value;//declaring variable for intrest
@@ -72,6 +72,7 @@ btn.onClick = function( ){
 
 	var pmt = calculateMortgage(amountBorrowed, interest, term);
 
+	postPayments(pmt);
 }
 
 
