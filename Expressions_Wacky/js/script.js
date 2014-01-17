@@ -23,7 +23,9 @@ function calculateMortgage( ){//setting function for mortgage calculator
 	//convert data with formula for obtaining monthly payment
 	return ((p * r) * Math.pow((1 + r), n)) / ( Math.pow((1 + 4), n) - 1);
 	
-
+		 console.log("R", p);
+		 console.log("R", r);
+		 console.log("R", n);
 	
 
 	return monthlyPayments;
@@ -45,7 +47,5 @@ function calculateMortgage( ){//setting function for mortgage calculator
  }
 
 
- console.log(p)
- console.log(r)
- console.log(n)
+ 
  
