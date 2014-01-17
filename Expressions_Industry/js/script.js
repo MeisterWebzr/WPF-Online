@@ -4,7 +4,7 @@
 
 //Industry web work calculator
 
-
+//Web design, web work, graphic design or photography calculator to give estimats for clients that require multimedia work
 
 var pages = prompt("Enter the amount of html pages your website needs");//declare variable for html pages
 var images = prompt("Enter the amount of images you need uploaded or edited");//declaring images to be added or edited on website
@@ -13,6 +13,9 @@ var pricePages = pages * 150.00;//assigning value of price per html page
 var priceImages = images * 40.00;//assigning value to price per images
 var priceLinks = links * 5.00;//decelared value for price per links
 var estimateTotal = (priceLinks + priceImages + pricePages);//assigned the estimator calculations for total package details
+var deadline = window.confirm(Do you need this to be completed within 72hours?)
+if  (X) window.alert( "no freekin way!");
+else window.alert("Great!"); 
 var packageDetails = estimateTotal;
 
 
