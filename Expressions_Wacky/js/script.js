@@ -9,8 +9,8 @@
 //@param p float Amount borrowed
 //@param r interesst, as a percentage
 //@param n term in years
-function calculateMortgage( ){
-	var monthlyPayments = null;
+function calculateMortgage( ){//setting function for mortgage calculator
+	var monthlyPayments = null;//Declaring variable monthly payment
 
 
 	//converting this percentage to a decimal
@@ -18,13 +18,18 @@ function calculateMortgage( ){
 
 	
 	//convert years to months
-	n = yearsToMonths(n);
+	n = yearsToMonths(n);//parameters set for n = conversion of years to months
+	
+	//convert data with formula for obtaining monthly payment
+	return ((p * r) * Math.pow((1 + r), n)) / ( Math.pow((1+4), n) - 1);
+	
+
 	
 
 	return monthlyPayments;
  
 
-}
+} 
  
 
  function percentToDecimal(percent){
@@ -36,5 +41,5 @@ function calculateMortgage( ){
 
  function yearsToMonths(year){
 
- 	return year * 12
+ 	return year * 12;
  }
