@@ -9,12 +9,12 @@
 //@param p float Amount borrowed
 //@param r interest, as a percentage
 //@param n term in years
-function calculateMortgage( ){//setting function for mortgage calculator
+function calculateMortgage(p, r, n ){//setting function for mortgage calculator
 	
 
 
 	//converting this percentage to a decimal
-	r = percentToDecimal(r);
+	var r = percentToDecimal(r);
 
 	
 	//convert years to months
@@ -27,10 +27,7 @@ function calculateMortgage( ){//setting function for mortgage calculator
 
 		return parseFloat(pmt.toFixed(2));//getting rid of the two digit on payments with parseFloat
 
-
-		 console.log("R", p);//call out log for para p
-		 console.log("R", r);//call out log for para r 
-		 console.log("R", n);//call out log for para n	
+	
 
 	return monthlyPayments;//returning to varibale monthly
  
@@ -58,14 +55,12 @@ function calculateMortgage( ){//setting function for mortgage calculator
  }
 
 var btn = document.getElementById("btnCalculate");//linking btn from html to code with getElementById
-btn.onClick = function(pmt){
+btn.onclick = function(){
 	var cost = document.getElementById("inCost").value; //declaring variables for cost
 	var downPayment = document.getElementById("inDown").value;//declaring variable for down payment
 	var interest = document.getElementById("inAPR").value;//declaring variable for intrest
 	var term = document.getElementById("inTime").value;//declaring variable for term 
 
-
-	console.log(cost, downPayment, interest, term);//calling out log for testing to see if code is correct
 	
 	var amountBorrowed = cost - downPayment; //declaring varibales for amount borrowed
 	
@@ -73,7 +68,12 @@ btn.onClick = function(pmt){
 	var pmt = calculateMortgage(amountBorrowed, interest, term);
 
 	postPayments(pmt);
-}
+};
+
+	     //console.log(cost, downPayment, interest, term);//calling out log for testing to see if code is correct
+		 //console.log("R", p);//call out log for para p
+		 //console.log("R", r);//call out log for para r 
+		 //console.log("R", n);//call out log for para n
 
 
  
