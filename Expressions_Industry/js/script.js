@@ -12,10 +12,7 @@ var links = prompt("How many links do you need?");//declaring variable to links 
 var pricePages = pages * 150.00;//assigning value of price per html page
 var priceImages = images * 40.00;//assigning value to price per images
 var priceLinks = links * 5.00;//decelared value for price per links
-var estimateTotal = (priceLinks + priceImages + pricePages);//assigned the estimator calculations for total package details
-var deadline = window.confirm(Do you need this to be completed within 72hours?)
-if  (X) window.alert( "no freekin way!");
-else window.alert("Great!"); 
+var estimateTotal = (priceLinks + priceImages + pricePages);//assigned the estimator calculations for total package details 
 var packageDetails = estimateTotal;
 
 
