@@ -54,7 +54,7 @@ function calculateMortgage( ){//setting function for mortgage calculator
 btn.onClick = function( ){
 	var cost = document.getElementById("inCost").value; //declaring variables for cost
 	var downPayment = document.getElementById("inDown").value;//declaring variable for down payment
-}	var interest = document.getElementById("inAPR").value;//declaring variable for intrest
+	var interest = document.getElementById("inAPR").value;//declaring variable for intrest
 	var term = document.getElementById("inTime").value;//declaring variable for term 
 
 
@@ -65,7 +65,7 @@ btn.onClick = function( ){
 
 	var pmt = calculateMortgage(amountBorrowed, interest, term);
 
-
+}
 
 
  
