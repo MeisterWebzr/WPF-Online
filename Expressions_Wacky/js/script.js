@@ -52,14 +52,13 @@ function calculateMortgage( ){//setting function for mortgage calculator
 
 var btn = document.getElementById("btnCalculate");//linking btn from html to code with getElementById
 btn.onClick = function( ){
-
 	var cost = document.GetElementById("inCost"); //declaring variables for cost
 	var downPayment = document.GetElementById("inDown");//declaring variable for down payment
-}
+}	var interest = document.GetElementById("inAPR");//decalring variable for intrest
 
-	//declaring varibales for amount borrowed
-	var amountBorrowed = cost - downPayment; 
-	var interest
+	
+	var amountBorrowed = cost - downPayment; //declaring varibales for amount borrowed
+	
 
 	var pmt = calculateMortgage(amountBorrowed, interest, term);
 
