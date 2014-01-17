@@ -14,14 +14,17 @@ var priceImages = images * 40.00;//assigning value to price per images
 var priceLinks = links * 5.00;//decelared value for price per links
 var estimateTotal = (priceLinks + priceImages + pricePages);//assigned the estimator calculations for total package details 
 var packageDetails = estimateTotal;//Assigning total amount for loggin affordances
-alert("Good!")
-else alert("Good!")
+
+
+
+
+
+
 
 
 alert("Your package includes" + " " + pages + "html pages" + " " + images + " " + "images" + " " + links + "links" + " " + "Your work Estimate is" + " " + "$" + estimateTotal);//assigned concatenate string of variables for package details
 
-
-
+alert("Can you afford this? Click OK if you can or can't");
 
 console.log(packageDetails)//calling out the print log for package details | here is where all the detials of clients input will be logged
 console.log(estimateTotal);//calling out the print log for estimator total | here is where the estimate of all items will be logged
