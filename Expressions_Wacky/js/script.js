@@ -41,7 +41,13 @@ function calculateMortgage( ){//setting function for mortgage calculator
  function percentToDecimal(percent){ //function setup for converting percent of intrest  rate to decimal
 
 	return (percent/12) / 100; //assigning calculation for conversion of input
+}
 
+
+
+ function postPayments(payment){
+
+ 	var htmlEl - document.getElementById("outMonthly");
 
  }
 
