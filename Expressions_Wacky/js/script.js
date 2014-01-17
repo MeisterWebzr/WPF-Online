@@ -7,7 +7,7 @@
 
 //The Formula: c = ((p * r) * Math.pow((1 + r), n)) / ( Math.pow((1+4), n) - 1)
 //@param p float Amount borrowed
-//@param r interesst, as a percentage
+//@param r interest, as a percentage
 //@param n term in years
 function calculateMortgage( ){//setting function for mortgage calculator
 	var monthlyPayments = null;//Declaring variable monthly payment
@@ -21,7 +21,7 @@ function calculateMortgage( ){//setting function for mortgage calculator
 	n = yearsToMonths(n);//parameters set for n = conversion of years to months
 	
 	//convert data with formula for obtaining monthly payment
-	return ((p * r) * Math.pow((1 + r), n)) / ( Math.pow((1+4), n) - 1);
+	return ((p * r) * Math.pow((1 + r), n)) / ( Math.pow((1 + 4), n) - 1);
 	
 
 	
@@ -43,3 +43,9 @@ function calculateMortgage( ){//setting function for mortgage calculator
 
  	return year * 12;
  }
+
+
+ console.log(p)
+ console.log(r)
+ console.log(n)
+ 
