@@ -6,9 +6,9 @@
 
 //Web design, web work, graphic design or photography calculator to give estimats for clients that require multimedia work
 
-	var pages = prompt("Enter the amount of html pages your website needs");//declare variable for html pages
-	var images = prompt("Enter the amount of images you need uploaded or edited");//declaring images to be added or edited on website
-	var links = prompt("How many links do you need?");//declaring variable to links to be added to website
+	var pages = prompt("Enter the amount of html pages your website needs");//declare given variable for html pages
+	var images = prompt("Enter the amount of images you need uploaded or edited");//declaring given images to be added or edited on website
+	var links = prompt("How many links do you need?");//declaring given variable to links to be added to website
 	var pricePages = pages * 150.00;//assigning value of price per html page
 	var priceImages = images * 40.00;//assigning value to price per images
 	var priceLinks = links * 5.00;//decelared value for price per links
