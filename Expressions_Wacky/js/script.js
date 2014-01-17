@@ -8,15 +8,20 @@
 //The Formula: c = ((p * r) * Math.pow((1 + r), n)) / ( Math.pow((1+4), n) - 1)
 //@param p float Amount borrowed
 //@param r interesst, as a percentage
+//@param n term in years
 function calculateMortgage( ){
-
-	var monthlyPayment = null;
+	var monthlyPayments = null;
 
 
 	//converting this percentage to a decimal
-	r + percentToDecimal(r);
+	r = percentToDecimal(r);
+
 	
-	return monthlyPayment;
+	//convert years to months
+	n = yearsToMonths(n);
+	
+
+	return monthlyPayments;
  
 
 }
@@ -24,7 +29,12 @@ function calculateMortgage( ){
 
  function percentToDecimal(percent){
 
+	return (percent/12) / 100;
 
 
+ }
 
+ function yearsToMonths(year){
+
+ 	return year * 12
  }
