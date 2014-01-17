@@ -11,18 +11,23 @@ body{
 }
 
 .billboard{
-	color: green;
+	color: orange;
 }
 
 .container{
 	margin: 0 auto;
+	padding: .5em;
 	float: right;
 	position: absolute;
 	left: 550px;
-	border: 1px solid #eee;
+	border: 10px solid #eee;
 }
 
 
 input{
+	float: right;
+}
+
+#btnCalculate{
 	float: right;
 }
