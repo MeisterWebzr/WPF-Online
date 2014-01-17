@@ -58,7 +58,7 @@ btn.onClick = function( ){
 	var term = document.GetElementById("inTime").value;//declaring variable for term 
 
 
-	
+	console.log(cost, downPayment, interest, term);//calling out log for testing to see if code is correct
 	
 	var amountBorrowed = cost - downPayment; //declaring varibales for amount borrowed
 	
