@@ -50,7 +50,7 @@ function calculateMortgage( ){//setting function for mortgage calculator
  	return year * 12;//assigning calculation for years to months
  }
 
-var btn = document.getElementById("btnCalculate"); 
+var btn = document.getElementById("btnCalculate");//linking btn from html to code with getElementById
 btn.onClick = function( ){
 
 	var cost = document.GetElementById("inCost"); //declaring variables for cost
@@ -58,7 +58,7 @@ btn.onClick = function( ){
 }
 
 //
-var amountBorrowed = cost - downPayment
+var amountBorrowed = cost - downPayment 
 
 var pmt = calculateMortgage(amountBorrowed, intrest, term);
 
