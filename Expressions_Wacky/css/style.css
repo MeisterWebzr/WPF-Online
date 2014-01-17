@@ -10,7 +10,9 @@ body{
 	
 }
 
-
+.billboard{
+	color: green;
+}
 
 .container{
 	margin: 0 auto;
@@ -19,4 +21,9 @@ body{
 	left: 550px;
 	border: 1px solid #eee;
 	background-color: #eee;
+}
+
+
+input{
+	float: right;
 }
