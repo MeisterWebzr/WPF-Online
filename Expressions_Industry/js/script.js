@@ -17,7 +17,7 @@ var packageDetails = estimateTotal;
 
 
 
-alert("Your package includes" + " " + pages + "html pages" + " " + images + " " + "images" + " " + links + "links" + " " + "Your work Estimate is" + "$" + estimateTotal);//assigned concatenate string of variables for package details
+alert("Your package includes" + " " + pages + "html pages" + " " + images + " " + "images" + " " + links + "links" + " " + "Your work Estimate is" + " " + "$" + estimateTotal);//assigned concatenate string of variables for package details
 
 
 
