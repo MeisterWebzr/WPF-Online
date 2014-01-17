@@ -25,7 +25,7 @@ function calculateMortgage( ){//setting function for mortgage calculator
 		//convert data with formula for obtaining monthly payments
 		var pmt = (r * p) /  (1 - (Math.pow((1 + r), (-n))));
 
-		return parseFloat(pmt.toFixed(2));//getting rid of the to digit on payments with parseFloat
+		return parseFloat(pmt.toFixed(2));//getting rid of the two digit on payments with parseFloat
 
 
 		 console.log("R", p);//call out log for para p
@@ -50,11 +50,11 @@ function calculateMortgage( ){//setting function for mortgage calculator
  	return year * 12;//assigning calculation for years to months
  }
 
-var btn = document.getElementById("btnCalculate");//linking btn from html to code with getElementById
+	var btn = document.getElementById("btnCalculate");//linking btn from html to code with getElementById
 btn.onClick = function( ){
-	var cost = document.GetElementById("inCost"); //declaring variables for cost
-	var downPayment = document.GetElementById("inDown");//declaring variable for down payment
-}	var interest = document.GetElementById("inAPR");//decalring variable for intrest
+	var cost = document.GetElementById("inCost").value; //declaring variables for cost
+	var downPayment = document.GetElementById("inDown").value;//declaring variable for down payment
+}	var interest = document.GetElementById("inAPR").value;//decalring variable for intrest
 
 	
 	var amountBorrowed = cost - downPayment; //declaring varibales for amount borrowed
