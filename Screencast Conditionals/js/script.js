@@ -36,6 +36,23 @@ console.log("You cannot ride the coaster");
 
 */
 
+//Relational Expression
+
+
+
+
+var kidHeight = 50;
+var minHeight = 47;
+
+	//If the kid height is over 48 inches
+	if (kidHeight > 48) {
+
+		//code to be perfomed if condition is true
+		console.log("you can ride the coaster");
+
+	};
+
+console.log("You dont meet the minimum height requirements to ride this ride");
 
 
 
