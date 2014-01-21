@@ -41,19 +41,30 @@ console.log("You cannot ride the coaster");
 
 
 
-var kidHeight = 52;
+var kidHeight = 44;
 var minHeight = 48;
+var parentHeight = 45;
 
 	//If the kid height is over 48 inches
 	if (kidHeight > minHeight){
 
-		//code to be perfomed if condition is true
+		//code to be perfomed if condition is true              //make sure your order is correct for code to progress each code 1st/ 2nd/ 3rd
 		console.log("you can ride the coaster");
-}else{
-		//code to be performed if valur is true
-		console.log("You dont meet the minimum height requirements to ride this ride");
 
+}else if(kidHeight < parentHeight){
+		//code to be performed if value is true
+		console.log("You can ride with your guardian angel");
+
+//else if chain choose between three or more codes
+}else{
+
+	//sorry kiddo, you've got some growing to do
+	console.log("Sorry kid, you've got some growing to do");
+	
 }
+
+
+
 
 
 
