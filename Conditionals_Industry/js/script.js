@@ -7,21 +7,19 @@
 
 
 
-var rateOfPay, workHours; 
+var rateOfPay, workHours, payCheck; 
 
 while(!(rateOfPay > 0) ){
 
- 	rateOfPay = Number(prompt("Enter your hourly rate of pay", " ")); //Prompting use tot enter rate of pay variable
+ 	rateOfPay = Number(prompt("ENTER YOUR HOURLY PAY", " ")); //Prompting use tot enter rate of pay variable
 
 }
 
+while(!(workHours > 0) ){
 
-	if (rateOfPay === " " || rateOfPay === null); //Checking for null or 0 dollars for rate of pay
+	rateOfPay = Number(prompt("ENTER HOW MANY HOURS YOU WORKED", " "));
 		
-		{
-		alert("Please enter your Hourly rate \in Dollars");
-		console.log(rateOfPay, workHours, payPeriod); //printing results of variable entered to database
-		}
+		
 
 
 
