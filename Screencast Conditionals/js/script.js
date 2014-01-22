@@ -220,6 +220,21 @@ var isAgeOverSixty = parseInt (age) > 60;
 */
 
 
+//The if Statement
+
+var roomTemp = 80
+
+if (roomTemp) {
+
+	alert("Hello Katelyn Burroughs, this is your DAD programming the web browser")
+	roomTemp = roomTemp -10;
+	alert("Its getting hot in here");
+	alert("Air conditioning switched on!")
+	alert("mom is home with the food, lets EAT!!!!")
+}
+
+console.log(roomTemp);
+
 
 
 
