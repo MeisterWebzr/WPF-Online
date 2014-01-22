@@ -7,11 +7,15 @@
 
 
 
-var rateOfPay = Number(prompt("Enter your hourly rate of pay", " ")); //Prompting use tot enter rate of pay variable
-var workHours = Number(prompt("Enter the nuber of hours you work last pay period", " " )); //Prompting for hours to be calculated
-var payPeriod = Number(prompt("Enter the amount of days you worked", " "))//Prompting user for pay period term
+var rateOfPay, workHours; 
 
-	
+while(!(rateOfPay > 0) ){
+
+ 	rateOfPay = Number(prompt("Enter your hourly rate of pay", " ")); //Prompting use tot enter rate of pay variable
+
+}
+
+
 	if (rateOfPay === " " || rateOfPay === null); //Checking for null or 0 dollars for rate of pay
 		
 		{
