@@ -217,7 +217,6 @@ var isAgeOverSixty = parseInt (age) > 60;
  	console.log("Older Than 60: " + isAgeOverSixty);
 
 
-*/
 
 
 //The if Statement
@@ -238,6 +237,11 @@ console.log(roomTemp);
 
 
 
+*/
+
+
+
+/////////////////////////////////////////////////////////////////////Chapter 3 try it out the if statement /////////////////////////////////////////////////////////////////
 
 
 
