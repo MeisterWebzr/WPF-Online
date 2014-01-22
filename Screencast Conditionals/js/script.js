@@ -39,7 +39,7 @@ console.log("You cannot ride the coaster");
 ////////////////////Relational Expression////////////////////
 
 
-
+/*
 
 var kidHeight = 44;
 var minHeight = 48;
@@ -63,7 +63,7 @@ var parentHeight = 45;
 	
 }
 
-
+*/
 
 ////////////////////Relational Operators////////////////////
 
@@ -92,7 +92,7 @@ var parentHeight = 45;
 
 
 ////////////////////////////////////////////////////////////EXAMPLE////////////////////////////////////////////////////////////
-
+/*
 var a = 12
 a > 20 //false
 
@@ -103,7 +103,7 @@ a > 20 //false
 5 < 5 //FALSE
 
 a > b  OR b < a  ////////////////////////////////////////STATEMENT THAT ARE EQUALLY THE SAME///////////////////////////////////
-
+*/
 
 ////////////////////EQUALITY////////////////////
 
@@ -121,21 +121,85 @@ a > b  OR b < a  ////////////////////////////////////////STATEMENT THAT ARE EQUA
 
 
 ////////////////////STRICT  EQUALITY  ALWAYS USE STRICT EQUALITY///////
-
+/*
 
 6 == "6"  //TRUE
 6 === "6" //FALSE
 
-
+*/
 
 
 ////////////////////INEQUALITY////////////////////
 
 //uses the != operator.
 //"is not the same as"
-		
+
+
+////////////////////ternaries  decision making on one line////////////////////////////////////////
+
+/*
+
+if (condition) {
+
+	do if true;
+}else{
+
+	do if false;
+}
+
+(condition) ? do if true : do if false;
+
+*/
 
 
 
+
+
+//if the gpa is over the min 2.0 score, the student can graduate
+    /*
+	if (gpa > 2.0) {
+
+
+		console.log("You can graduate");
+
+	}else{
+
+		console.log("GPA is too low!");
+	}
+
+
+	//write the above in ternarie//
+
+	(age > 11) ? console.log("you can get Dr Seus") : console.log("Muppets Book is on its way");
+	
+		*/
+/*
+
+var age = 2;
+var book;
+
+//If the child is sunder 10, they get green eggs and ham, otherwise they get the Time Machine
+
+
+if (age < 10) {
+	book = "Green Eggs & Ham";
+	
+									/////////////////long form/////////////////
+}else{
+	book = "The Time Machine";
+}
+
+console.log(book);
+
+*/
+
+/////////////short form ternary
+
+var age = 22;
+var book;
+
+
+book = (age < 10) ? "Green Eggs & Ham" : "The Time Machine";
+console.log(book);
 
 		
