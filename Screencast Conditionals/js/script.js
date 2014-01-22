@@ -194,12 +194,44 @@ console.log(book);
 */
 
 /////////////short form ternary
-
+/*
 var age = 22;
 var book;
 
 
 book = (age < 10) ? "Green Eggs & Ham" : "The Time Machine";
 console.log(book);
+*/
+
+
+
+//////////////////////////////////////////////////////////////////////Chapter 3 Decisions & Loops///////////////////////////////////////////////////////////////////////
+
+
+//assigning the result to a comparison
+
+/*
+
+var age = prompt("Enter age:", " ");
+var isAgeOverSixty = parseInt (age) > 60;
+ 	console.log("Older Than 60: " + isAgeOverSixty);
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		
