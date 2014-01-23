@@ -24,4 +24,6 @@ var workHours, amountOfProjects, timePerProject;
     	console.log(workHours);
     }
 
-    
+
+    //Calculating the results of the above prompts using expressions
+    timePerProject = (workHours) / (amountOfProjects);
