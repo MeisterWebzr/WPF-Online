@@ -33,7 +33,7 @@ var length, width, height, volumeofHead, hello;
 
 		//1st prompt for user to input their length of head
 		width = prompt("Enter the width of your head", " ");
-		console.log(length);
+		console.log(width);
 
 	}
 	//validating the input of height of your head
