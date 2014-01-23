@@ -1,6 +1,8 @@
-//Otto "Meister" Burroughs 1-22-2014 Conditional Personal
-
-
+/*
+       Otto "Meister" Burroughs //Name of student
+         Conditional Personal //name of assignment
+				1-23-2014 //date
+*/
 //Calculate your hours of work on projects per day
 //Formula: workhours / amount of projects = timePerProject
 
