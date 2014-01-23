@@ -5,16 +5,18 @@
 //Calculate your weekly or monthy pay.
 //The Formula: workHours * rateOfPay = payCheck
 
+//theses are the givens as appropriatly named variables
+var rateOfPay, workHours, payCheck;  
 
-var rateOfPay, workHours, payCheck; 
-
-	while ( !(rateOfPay > 0) ){
+	//validation of rateOfPay with the while function
+	while ( !(rateOfPay > 0) ){ 
 
  		rateOfPay = prompt("ENTER YOUR HOURLY PAY", " "); //Prompting use tot enter rate of pay variable
  		console.log(rateOfPay);
     }
 
-	while ( !(workHours > 0) ){
+	//validation of rateOfPay with the while function
+	while ( !(workHours > 0) )
 
 		workHours = prompt("ENTER HOW MANY HOURS YOU WORKED", " ");
 		console.log(rateOfPay);	
@@ -22,7 +24,7 @@ var rateOfPay, workHours, payCheck;
 		
 
 
-	payCheck = (rateOfPay) * (workHours);
+	payCheck = (rateOfPay) * (workHours); //Calculating the results using expressions
 
 
 		alert("Based on your hourly wage of $" + rateOfPay + " " + " & " + workHours + " hours of work" + " " + "you made" + " " + payCheck);
