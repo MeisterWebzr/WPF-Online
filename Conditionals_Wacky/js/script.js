@@ -15,10 +15,8 @@
 
 
 
-// setting the givem variables
+// setting the given variables
 var length, width, height, volumeofHead, hello;
-
- 
 
 	//validating the input of users length
 	while (! (length > 0 ) ){
@@ -42,5 +40,12 @@ var length, width, height, volumeofHead, hello;
 		height = prompt("Enter the height of your head");
 		console.log(height);
 	}
+
+	//Calculating the results of user inputs from above prompts
+	volumeofHead = (length) * (width) * (height);
+
+
+	
+
 
 	
