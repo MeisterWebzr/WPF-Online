@@ -16,7 +16,7 @@ var rateOfPay, workHours, payCheck;
     }
 
 	//validation of rateOfPay with the while function
-	while ( !(workHours > 0) )
+	while ( !(workHours > 0) ){
 
 		workHours = prompt("ENTER HOW MANY HOURS YOU WORKED", " ");
 		console.log(rateOfPay);	
