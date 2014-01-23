@@ -16,7 +16,7 @@
 
 
 // setting the given variables
-var length, width, height, volumeofHead, hello;
+var length, width, height, volumeofHead,;
 
 	//validating the input of users length
 	while (! (length > 0 ) ){
@@ -44,8 +44,10 @@ var length, width, height, volumeofHead, hello;
 	//Calculating the results of user inputs from above prompts
 	volumeofHead = (length) * (width) * (height);
 
+	alert("the volume of your head is"+ volumeofHead);
 
-	
+
+
 
 
 	
