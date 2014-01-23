@@ -10,14 +10,14 @@ var rateOfPay, workHours, payCheck;
 
 	if ( !(rateOfPay > 0) ){
 
- 		rateOfPay = Number(prompt("ENTER YOUR HOURLY PAY", " ")); //Prompting use tot enter rate of pay variable
-
+ 		rateOfPay = prompt("ENTER YOUR HOURLY PAY", " "); //Prompting use tot enter rate of pay variable
+ 		console.log(rateOfPay);
     }
 
 	if ( !(workHours > 0) ){
 
-	rateOfPay = Number(prompt("ENTER HOW MANY HOURS YOU WORKED", " "));
-	
+		workHours = prompt("ENTER HOW MANY HOURS YOU WORKED", " ");
+		console.log(rateOfPay);	
 	}	
 		
 
@@ -25,24 +25,22 @@ var rateOfPay, workHours, payCheck;
 	payCheck = (rateOfPay) * (workHours);
 
 
-		alert("Based on your hourly wage of" + rateOfPay + " " + " & " + workHours + "of work" + " " + "you made" + " " + payCheck);
+		alert("Based on your hourly wage of $" + rateOfPay + " " + " & " + workHours + " hours of work" + " " + "you made" + " " + payCheck);
 
 		if( payCheck >= 6000)
 		
 			{
-		 		alert("WOW, you get paid" + payCheck + " " + " Click the ok button see your stats");
+		 		alert("WOW, you made" + " " + payCheck + " " + " Click the ok button see your stats");
 			}
 
-		if( payCheck <= 5999 || payCheck >= 2999)
+		if( payCheck <= 5999)
+			
 			{
-
-				alert(" ")
+				alert(" Step your game up! How can you live of those crumbs?");
 			}
 
 
 console.log(payCheck);
-console.log(rateOfPay, workHours);
-alert(payCheck);
 
 
 
