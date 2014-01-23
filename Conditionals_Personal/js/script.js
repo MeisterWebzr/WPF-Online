@@ -34,5 +34,19 @@ var workHours, amountOfProjects, timePerProject;
     	alert("You have" + " " + amountOfProjects + " "+ "projects" + " " + " & " + " " + "can work" + " " + timePerProject + " " + "hours on each of them");
 
 
+    	//This line we will assign the above calcualtion to a conditional operator
+    	if (amountOfProjects >= 1 && amountOfProjects <= 4)
+    	{
+            alert("Thats an average work load for a Web Designer & Developer")
+    	}
+    	else if ( (amountOfProjects >= 5 && amountOfProjects <= 9) || (amountOfProjects >= 10 && amountOfProjects <= 19) )
+    	{	
+    		alert("WoW! how do you work on so many projects by yourself? Hire some students! from Full Sail");
+    	}
+    	else
+    	{
+    		alert("Thats an INSANE number of projects!");
+    	}
+
 
  console.log(timePerProject);
