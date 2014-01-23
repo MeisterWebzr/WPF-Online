@@ -36,5 +36,11 @@ var length, width, height, volumeofHead, hello;
 		console.log(length);
 
 	}
+	//validating the input of height of your head
+	while (! (height > 0) ) {
+
+
+		
+	}
 
 	
