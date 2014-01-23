@@ -14,7 +14,19 @@
 //Formula: length * width * height = volumeofHead
 
 
-// setting the givem variables
-var length, width, height, volumeofHead;
 
-	//1st prompt
+// setting the givem variables
+var length, width, height, volumeofHead, hello;
+
+ 
+
+	//validating the input of users length
+	while (! (length > 0 ) ){
+
+		//1st prompt for user to input their length of head
+		length = prompt("Enter the length of your head", " ");
+		console.log(length);
+
+	}
+
+	
