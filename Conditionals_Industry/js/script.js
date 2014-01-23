@@ -27,21 +27,26 @@ var rateOfPay, workHours, payCheck;
 	payCheck = (rateOfPay) * (workHours); //Calculating the results using expressions
 
 
-		alert("Based on your hourly wage of $" + rateOfPay + " " + " & " + workHours + " hours of work" + " " + "you made" + " " + payCheck);
+		alert("Based on your hourly wage of $" + rateOfPay + " " + " & " + workHours + " hours of work" + " " + "you made" + " " + "$" + payCheck);
 
-		if( payCheck >= 6000)
+		if( payCheck <= 1500)
 		
 			{
-		 		alert("WOW, you made" + "$" + payCheck);
+		 		alert("thats it! You made" + " " + "$" + payCheck + " " + "How can you live on that?");
 
 			}
 
-		if( payCheck <= 5999)
+		   if ( payCheck <= 2500)
 			
 			{
-				alert(" Step your game up! How can you live of those crumbs?");
+			alert("Step your game up! You only made" + " " + "$" + payCheck + " " + "could be making triple that with a degree from Full Sail");
 			}
 
+		  else
+		   {
+		   	  	alert("WOW! You made" + " " + "$" + payCheck);
+		   }
+		   
 
 console.log(payCheck);
 
