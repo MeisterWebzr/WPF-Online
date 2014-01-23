@@ -32,7 +32,7 @@ var length, width, height, volumeofHead, hello;
 	while (! (width > 0 ) ){
 
 		//1st prompt for user to input their length of head
-		width = prompt("Enter the length of your head", " ");
+		width = prompt("Enter the width of your head", " ");
 		console.log(length);
 
 	}
@@ -40,6 +40,7 @@ var length, width, height, volumeofHead, hello;
 	while (! (height > 0) ) {
 
 		height = prompt("Enter the height of your head")
+
 
 	}
 
