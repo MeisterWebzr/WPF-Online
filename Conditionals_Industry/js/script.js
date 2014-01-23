@@ -2,7 +2,7 @@
 
 
 
-//Calculate your weekly or monthy pay.
+//Calculate your pay.
 //The Formula: workHours * rateOfPay = payCheck
 
 //theses are the givens as appropriatly named variables
@@ -24,8 +24,8 @@ var rateOfPay, workHours, payCheck;
 	}	
 		
 
-
-	payCheck = (rateOfPay) * (workHours); //Calculating the results using expressions
+	//Calculating the results using expressions
+	payCheck = (rateOfPay) * (workHours); 
 
 		//Alerting the user of the calculations based on their input in to the prompts
 		alert("Based on your hourly wage of $" + rateOfPay + " " + " & " + workHours + " hours of work" + " " + "you made" + " " + "$" + payCheck);
@@ -41,15 +41,15 @@ var rateOfPay, workHours, payCheck;
 		   if ( payCheck <= 2500)
 			 
 			{  //Alerting user on stepping their game up based on the amount made being below or eual to $2500
-			   alert("Step your game up! You only made" + " " + "$" + payCheck + " " + " You can quadrple that with a degree from Full Sail");
+			   alert("Step your game up! You only made" + " " + "$" + payCheck + " " + " You can quadruple that with a degree from Full Sail");
 			}
 
-		  else
-		   {
+		  else //Else if affordance for varialble above the latter stated if statements for amounts above $2500
+		   {   //Alerting user with a WOW messsage for making over $2500 in a payCheck
 		   	   alert("WOW! You made" + " " + "$" + payCheck);
 		   }
 		   
-
+//printing results to console
 console.log(payCheck);
 
 
