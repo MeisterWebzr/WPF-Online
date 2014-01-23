@@ -27,3 +27,12 @@ var workHours, amountOfProjects, timePerProject;
 
     //Calculating the results of the above prompts using expressions
     timePerProject = (workHours) / (amountOfProjects);
+    
+
+
+    	//Alert the user of the data input into the system
+    	alert("You have" + " " + amountOfProjects + " "+ "projects" + " " + " & " + " " + "can work" + " " + timePerProject + " " + "hours on each of them");
+
+
+
+ console.log(timePerProject);
