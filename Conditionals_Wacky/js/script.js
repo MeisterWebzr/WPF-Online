@@ -28,5 +28,13 @@ var length, width, height, volumeofHead, hello;
 		console.log(length);
 
 	}
+	//validating the input of users length
+	while (! (width > 0 ) ){
+
+		//1st prompt for user to input their length of head
+		width = prompt("Enter the length of your head", " ");
+		console.log(length);
+
+	}
 
 	
