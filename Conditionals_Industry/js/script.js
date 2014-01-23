@@ -31,20 +31,21 @@ var rateOfPay, workHours, payCheck;
 		alert("Based on your hourly wage of $" + rateOfPay + " " + " & " + workHours + " hours of work" + " " + "you made" + " " + "$" + payCheck);
 		
 		//assigning the calculation to a resulting variable
-		if (payCheck < 1500)
+		if( payCheck <= 1500)
 		
 			{  //Alerting the user of the calculations based on their input from prompts
 		 	   alert("Thats it! You made" + " " + "$" + payCheck + " " + "How can you live on that?");
 
 			}
 			//If conditional operator for below $2500
-		   if ( payCheck >= 1501 && payCheck < 2500) 
+		   if ( payCheck <= 2500)
 			 
 			{  //Alerting user on stepping their game up based on the amount made being below or eual to $2500
-			   alert("Step your game up! You only made" + " " + "$" + payCheck + " " + " You can quadruple that with a degree from Full Sail");
-			   }
-		      else
-		       {
+			   alert("Step your game up! You only made" + " " + "$" + payCheck + " " + " You can quadrple that with a degree from Full Sail");
+			}
+
+		  else
+		   {
 		   	   alert("WOW! You made" + " " + "$" + payCheck);
 		   }
 		   
