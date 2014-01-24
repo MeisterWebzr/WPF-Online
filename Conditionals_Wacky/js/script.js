@@ -16,7 +16,7 @@
 
 
 // setting the given variables
-var length, width, height, volumeofHead, hello;
+var length, width, height, volumeofHead;
 
 	//validating the input of users length
 	while (! (length > 0 ) ){
@@ -36,7 +36,7 @@ var length, width, height, volumeofHead, hello;
 	}
 	//validating the input of height of your head
 	while (! (height > 0) ) {
-	
+
 		height = prompt("Enter the height of your head");
 		console.log(height);
 	}
