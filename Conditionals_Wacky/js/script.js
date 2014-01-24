@@ -51,7 +51,7 @@ var length, width, height, volumeOfHead;
 	}
 	else		
 	{
-		alert(" Wow, I thought I was a Geekazoid Master but wth your rating of" + " " + volumeOfHead + " " + "geekazoids it's clear that your the new Geekazoid Master congradulations!");
+		alert(" Wow, I thought I was a Geekazoid Master but with your rating of" + " " + volumeOfHead + " " + "geekazoids it's clear that your the new Geekazoid Master congradulations!");
 	}
 
 
