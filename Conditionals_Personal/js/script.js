@@ -6,7 +6,7 @@
 //Calculate your hours of work on projects per day
 //Formula: workhours / amount of projects = timePerProject
 
-
+//determine the givens appropriately for the conditional calculator
 var workHours, amountOfProjects, timePerProject;
 
 
