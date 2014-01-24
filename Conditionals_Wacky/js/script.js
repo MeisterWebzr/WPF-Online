@@ -44,13 +44,13 @@ var length, width, height, volumeOfHead;
 	//Calculating the results of user inputs from above prompts
 	volumeOfHead = (length) * (width) * (height);
 	console.log(volumeOfHead);
-
+	//Assigning condition results to if else statements
 	if (volumeOfHead >=1 && volumeOfHead <= 240000)  {
-
+		//alerting user based on conditions of resuts
 		alert("Your rating is" + " " + volumeOfHead + " " + "geekazoids, I'm light years ahead of you! Bow down to the Geekazoid Master");
 	}
-	else		
-	{
+	else		//else affrordance if results are outside of the above conditions
+	{	//alerting user of the conditional staments set with these results gathered
 		alert(" Wow, I thought I was a Geekazoid Master but with your rating of" + " " + volumeOfHead + " " + "geekazoids it's clear that your the new Geekazoid Master congradulations!");
 	}
 
