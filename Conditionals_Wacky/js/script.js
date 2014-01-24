@@ -16,7 +16,7 @@
 
 
 // setting the given variables
-var length, width, height, volumeOfHead,;
+var length, width, height, volumeofHead, hello;
 
 	//validating the input of users length
 	while (! (length > 0 ) ){
@@ -36,15 +36,16 @@ var length, width, height, volumeOfHead,;
 	}
 	//validating the input of height of your head
 	while (! (height > 0) ) {
-
+	
 		height = prompt("Enter the height of your head");
 		console.log(height);
 	}
 
 	//Calculating the results of user inputs from above prompts
-	volumeOfHead = (length) * (width) * (height);
+	volumeofHead = (length) * (width) * (height);
+	console.log(volumeofHead);
 
-	alert("the volume of your head is"+ " " + volumeOfHead + "geekazoids");
+	alert("Congrats your head is" + " " + volumeofHead + " " + "geekazoids");
 
 
 
