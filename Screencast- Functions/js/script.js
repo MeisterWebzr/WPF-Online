@@ -103,47 +103,77 @@ funcName(argument1, argument2);
 /////////////////////////// Functions - Parameters and Arguments , elements going into a function
 
 /*
-calcArea(30, 20); //invocation of parameters or calling into wharehouse
+			calcArea(30, 20); //invocation of parameters or calling into wharehouse
 
-function calcArea(w, h){ //w = 30 h = 20 the actual storage containe
-	var area = w * h;
-	console.log(area);
-}
-
+			function calcArea(w, h){ //w = 30 h = 20 the actual storage containe
+				var area = w * h;
+				console.log(area);
+			}
 
 */
 
-/*
+
 
 
 ////////////////////////////Storage container | parameters
-function dogYears(age){
 
-	var dogYears = age * 7;
-	console.log("Sparky is" + " " + dogYears + " " + "years old")
-}
+/*
+			function dogYears(age){
+
+				var dogYears = age * 7;
+				console.log("Sparky is" + " " + dogYears + " " + "years old")
+			}
 
 
-dogYears(4); //passing the value 4 to age //arguments
-dogYears(5); //passing the value 5 to age
+			dogYears(4); //passing the value 4 to age //arguments
+			dogYears(5); //passing the value 5 to age
 
 */
 
 
-///////////////////////////Returning Values | getting values back from warehouse or function
+/////////////////////////// Returning Values | getting values back from warehouse or function
 
+
+/*
 			var total = calcArea(30, 20);
 
-
+			//This is a function
 			function calcArea(w, h){ //w = 30 h = 20 the actual storage containe
 				var area = w * h;
 				return area; //function spitting information out
 				
 			}
 
+			//This is a procedure
+			function calcArea(width, height){ //w = 30 h = 20 the actual storage containe
+				var area = width * height;
+				console.log(area); //no return staying in warehouse databes or fuction
+				
+			}
+
 
 			console.log(area);
+*/
 
+
+
+////////////////////////////// Anonymous Function | Also called closeures
+// have to define function then invocake results after like setting variable
+
+			
+			//Anonymous Functions
+			var calcArea = function(width, height){
+				//code to run
+				var area = width * height;
+				return area;
+			}
+
+			var a = calcArea(20, 30);
+
+			
+			alert("Answer" + " " + " = " + " " + a);
+
+			
 
 
 
