@@ -60,20 +60,24 @@ function outptMsg(){
 */
 
 
+var width = 5; //Scoped to the larger document or whatever outside of the function definition
+
 function calcArea(){
 
 	//function definition
-	var width = 30;
+	var width = 20; //width is scoped to the function definition of calcArea 
 	var height = 30;
 	var area = width * height;
-	console.log(area);
+	//console.log(area);
 } 
 
 
 
 calcArea(); //Invocation of function | Functions call
+console.log(calcArea);
 
 
+/* Varianble scope | Variables will always prefer to use the var nested within its own function */
 
 
 
