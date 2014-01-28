@@ -78,14 +78,14 @@ console.log(calcArea);
 
 */
 
-/* Variable scope | Variables will always prefer to use the var nested within its own function */
+/////////////////////* Variable scope | Variables will always prefer to use the var nested within its own function */
 
 
 
 
 /* 
 
-Arguments and Parameters | Getting stuff into a function 
+///////////////////Arguments and Parameters | Getting stuff into a function 
 
 
 
@@ -100,7 +100,7 @@ funcName(argument1, argument2);
 */
 
 
-/// Functions - Parameters and Arguments
+/////////////////////////// Functions - Parameters and Arguments , elements going into a function
 
 /*
 calcArea(30, 20); //invocation of parameters or calling into wharehouse
@@ -113,8 +113,10 @@ function calcArea(w, h){ //w = 30 h = 20 the actual storage containe
 
 */
 
+/*
 
-				//Storage container // parameters
+
+////////////////////////////Storage container | parameters
 function dogYears(age){
 
 	var dogYears = age * 7;
@@ -125,11 +127,22 @@ function dogYears(age){
 dogYears(4); //passing the value 4 to age //arguments
 dogYears(5); //passing the value 5 to age
 
+*/
 
 
+///////////////////////////Returning Values | getting values back from warehouse or function
+
+			var total = calcArea(30, 20);
 
 
+			function calcArea(w, h){ //w = 30 h = 20 the actual storage containe
+				var area = w * h;
+				return area; //function spitting information out
+				
+			}
 
+
+			console.log(area);
 
 
 
