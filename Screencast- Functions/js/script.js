@@ -59,7 +59,7 @@ function outptMsg(){
 }
 */
 
-
+/*
 var width = 5; //Scoped to the larger document or whatever outside of the function definition
 
 function calcArea(){
@@ -76,8 +76,62 @@ function calcArea(){
 calcArea(); //Invocation of function | Functions call
 console.log(calcArea);
 
+*/
 
-/* Varianble scope | Variables will always prefer to use the var nested within its own function */
+/* Variable scope | Variables will always prefer to use the var nested within its own function */
+
+
+
+
+/* 
+
+Arguments and Parameters | Getting stuff into a function 
+
+
+
+
+funcName(argument1, argument2);
+
+ function funcName(paramter1, parameter2){
+ 	//code the function runs depednings on which parameter is invocated or called
+ 	
+ }
+
+*/
+
+
+/// Functions - Parameters and Arguments
+
+/*
+calcArea(30, 20); //invocation of parameters or calling into wharehouse
+
+function calcArea(w, h){ //w = 30 h = 20 the actual storage containe
+	var area = w * h;
+	console.log(area);
+}
+
+
+*/
+
+
+				//Storage container // parameters
+function dogYears(age){
+
+	var dogYears = age * 7;
+	console.log("Sparky is" + " " + dogYears + " " + "years old")
+}
+
+
+dogYears(4); //passing the value 4 to age //arguments
+dogYears(5); //passing the value 5 to age
+
+
+
+
+
+
+
+
 
 
 
