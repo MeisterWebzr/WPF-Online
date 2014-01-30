@@ -66,6 +66,7 @@ var dreamVision = calcDV(daysSlept, sleepHours, falling, dreamMem);
 			return dreamPower;
 		}
 
+console.log(dreamVision);
 
 
 
