@@ -12,8 +12,10 @@
 
 //Formula: (hours slept per day * days slept) / (times falling * dreams remember) = DreamVisionairy Rating
 
+	//firs alert to user for the definition of the calculator
 	alert("Calculate your DreamVisionary Rating. This is the ability to see your dreams and create new ones. Go ahead an click OK and well gather some infrormatiin");
 
+	//setting given variables
 	var sleepHours, daysSlept, falling, dreamMem;
 
 
@@ -51,3 +53,14 @@
 	   console.log(dreamMem);
 
 	}
+
+
+//Setting variable for Dream Vision return
+var = dreamVision = calcDV(daysSlept, sleepHours, falling, dreamMem);
+
+
+
+
+
+
+
