@@ -1,8 +1,8 @@
 /*
 
 Otto "Meister" Burroughs //Name of Student
-Functions Industrial //Name of assignment 
-1/29/2014 7:14pm // Date and time finished
+Functions Personal //Name of assignment 
+1/30/2014 7:14pm // Date and time finished
 
 */
 
@@ -45,4 +45,6 @@ var totalProfit = calcProfit(income, expenses);
 
 		}
 
-	
+	//Printing to console total profit results
+	console.log(totalProfit);
+
