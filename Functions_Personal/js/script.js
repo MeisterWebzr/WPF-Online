@@ -61,7 +61,7 @@ var totalProfit = calcProfit(income, expenses);
 		//alert for user to be notified of profit between 1 and 1000 dollars
 		alert("Your profited" + "$" + totalProfit + " " + "not bad, but, you an do better than that. Try charging a bit more or cutting some overhead costs.")
 		//printing to console the total
-		console.log(totalProfit)
+		console.log(totalProfit);
 	}
 	
 	//if statement for condiontal operation of total profit
@@ -70,7 +70,7 @@ var totalProfit = calcProfit(income, expenses);
 		//alert for user to be notified of profit between 1 and 1000 dollars
 		alert("Your expenses were" + " " + "$" + expenses + " " + "I suggest you eliminte your tedious expenses and cut overhead so you can turn a profit.")
 		//printing to console the total
-		console.log(expenses)
+		console.log(expenses);
 	
 	//Else conditoinal statement for all other conditions not set above
 	}else{
@@ -78,6 +78,6 @@ var totalProfit = calcProfit(income, expenses);
 		//alert user for all ther conditions with this else conditionals statement
 		alert("You profited" + " " + income + " " );
 		//printing to console the total
-		console.log(income)
+		console.log(income);
 	}
 
