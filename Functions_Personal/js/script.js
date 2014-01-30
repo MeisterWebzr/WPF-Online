@@ -48,3 +48,12 @@ var totalProfit = calcProfit(income, expenses);
 	//Printing to console total profit results
 	console.log(totalProfit);
 
+
+
+
+	if(totalProfit <= 1){
+
+		
+
+	}
+
