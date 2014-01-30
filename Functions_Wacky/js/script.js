@@ -25,6 +25,7 @@
 
 		//Prompting user for how many hours they sleep per day
 		sleepHours = prompt("How many hours do you sleep per day?", " ");
+		//Printing to console
 		console.log(sleepHours);
 	}
 
@@ -34,6 +35,7 @@
 
 		//Prompting user for how many days they sleep 
 		daysSlept = prompt("How many days do you sleep per month?", " ");
+		//Printing to console
 		console.log(daysSlept);
 
 	}
@@ -42,6 +44,7 @@
 
 	   //Prompting user for how many days they sleep
 	   falling = prompt("How many dreams do you have where your falling from the sky?", " ");
+	   //Printing to console
 	   console.log(falling);
 
 	}
@@ -51,6 +54,7 @@
 
 	   //Prompting user for how many dreams the remember
 	   dreamMem = prompt("How many dreams do you remember?", " ");
+	   //Printing to console
 	   console.log(dreamMem);
 
 	}
@@ -66,7 +70,7 @@ var dreamVision = calcDV(daysSlept, sleepHours, falling, dreamMem);
 			var dreamPower = (daysSlept * sleepHours) / (falling * dreamMem);
 			return  Math.round (dreamPower * 100);
 		}
-
+//Printing to console
 console.log(dreamVision);
 
 
@@ -74,15 +78,22 @@ console.log(dreamVision);
 			if (dreamVision > 0 && dreamVision <= 10) {
 			
 			alert("Your Dream Visionairy Rating is" + " " + dreamVision);
+			//Printing to console
+			console.log(dreamVision);
 
 			}
 
 			if (dreamVision > 10 && dreamVision < 50) {
 
 				alert("Your Dream Visionairy Rating is" + " " + dreamVision);
+				//Printing to console
+				console.log(dreamVision);
+
 			}else{
 
 				alert("Your Dream Visionairy Rating is" + " " + dreamVision + "thats off the radar your definitly are a dreamer");
+				//Printing to console
+				console.log(dreamVision);
 			}
 
 
