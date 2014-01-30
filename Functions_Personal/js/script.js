@@ -40,6 +40,9 @@ var totalProfit = calcProfit(income, expenses);
 		function calcProfit (income, expenses){
 
 			//calculation of proft based on income and expenses
-			var 
+			var mula = (income - expenses);
+			return mula;
 
 		}
+
+	
