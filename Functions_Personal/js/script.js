@@ -54,7 +54,7 @@ var totalProfit = calcProfit(income, expenses);
 	if(totalProfit < 0){
 
 		//alerting user of conditional statement for total profit less than 1 dollar
-		alert("You didnt profit anything, have a look at your marketing plan and review your expenses for ways to cut overhead. You won make it too much longer without makring a profit." )
+		alert("Your negative" + " " + "$" + totalProfit + " " + "Have a look at your marketing plan and review your expenses for ways to cut overhead. You won't make it too much longer without making a profit." )
 
 	}
 
