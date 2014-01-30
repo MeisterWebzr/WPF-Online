@@ -27,7 +27,8 @@ var profit, income, expenses;
 		//validating for null or zero input with  ( while ) loop.
 		while(! (expenses > 0 ) ){
 
-			//setting prompt input for expenses paramter
+			//setting prompt input for expenses parameters
 			expenses = prompt("Enter your total expenses this month", " ")
+			console.log(expenses);
 
 		}
