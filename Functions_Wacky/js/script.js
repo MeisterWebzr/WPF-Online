@@ -35,11 +35,19 @@
 
 	}
 
-	while(!(falling > 0) ){
+	while(! (falling > 0) ){
 
 	   //Prompting user for how many days they sleep
 	   prompt("How many hours do you sleep per day?", " ");
 	   console.log(falling);
 
+	}
+
+
+	while(! (dreamMem > 0) ){
+
+	   //Prompting user for how many dreams the remember
+	   prompt("How many dreams do you remember?", " ");
+	   console.log(dreamMem);
 
 	}
