@@ -14,21 +14,22 @@ Functions Industrial //Name of assignment
 //Determining the appropriate functions with givens and variables
 var calcGal, numberOfPeople, oz, days, ouncesPerGallon;
 
-  		//validating for null or zero with loop
+  		//validating for null or zero with loop on number of people input
 		while(! (numberOfPeople > 0) ){ 
 		
 		//Setting parameter input for number of people by user
 	    numberOfPeople = prompt("Enter the number of people in the house", " ");
 	    
-	    //printing to console number of people
+	    //printing to console number of people entered into the prompt
 	    console.log(numberOfPeople);
 
         }
 
-
-        
+        //validating for null or zero with loop on days input
   		while(! (days > 0) ){
+	 	//Setting parameter input for use to input number of days water is needed
 	 	days = prompt("Enter the number of days you need water for", " ");
+	 	//printing to console the number of days entered into the prompt
 	 	console.log(days);
 
         }
