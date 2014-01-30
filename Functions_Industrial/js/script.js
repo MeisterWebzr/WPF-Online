@@ -15,7 +15,9 @@ Functions Industrial //Name of assignment
 
 
 
-var total = calcGal(4, 16, 2, 128); 
+var total = calcGal(numberOfPeople, oz, days, ouncesPerGallon); 
+
+
 
 		//Settingt the function for gallon calculation
 		function calcGal(numberOfPeople, oz, days, ouncesPerGallon){
