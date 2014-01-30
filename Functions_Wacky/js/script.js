@@ -30,7 +30,16 @@
 	while (! (daysSlept > 0) ){
 
 		//Prompting user for how many days they sleep 
-		prompt("How many hours do you sleep per day?", " ");
+		prompt("How many days do you sleep per month?", " ");
 		console.log(daysSlept);
+
+	}
+
+	while(!(falling > 0) ){
+
+	   //Prompting user for how many days they sleep
+	   prompt("How many hours do you sleep per day?", " ");
+	   console.log(falling);
+
 
 	}
