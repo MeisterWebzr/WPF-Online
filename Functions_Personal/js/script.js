@@ -17,7 +17,7 @@ var profit, income, expenses;
 		//validating for null or zero input with loop
 		while(! (income > 0) ){
 
-
-
+			//setting parameter input for income
+			income = prompt("How much did you make this month?", " ")
 
 		}
