@@ -25,6 +25,7 @@
 
 		//Prompting user for how many hours they sleep per day
 		sleepHours = prompt("How many hours do you sleep per day?", " ");
+		
 		//Printing to console
 		console.log(sleepHours);
 	}
@@ -35,6 +36,7 @@
 
 		//Prompting user for how many days they sleep 
 		daysSlept = prompt("How many days do you sleep per month?", " ");
+		
 		//Printing to console
 		console.log(daysSlept);
 
@@ -44,6 +46,7 @@
 
 	   //Prompting user for how many days they sleep
 	   falling = prompt("How many dreams do you have where your falling from the sky?", " ");
+	   
 	   //Printing to console
 	   console.log(falling);
 
@@ -54,6 +57,7 @@
 
 	   //Prompting user for how many dreams the remember
 	   dreamMem = prompt("How many dreams do you remember?", " ");
+	   
 	   //Printing to console
 	   console.log(dreamMem);
 
@@ -66,35 +70,45 @@ var dreamVision = calcDV(daysSlept, sleepHours, falling, dreamMem);
 
 		//Setup of function
 		function calcDV (daysSlept, sleepHours, falling, dreamMem){
-
+			
+			//setting variable for dream power calulations
 			var dreamPower = (daysSlept * sleepHours) / (falling * dreamMem);
+			
+			//spitting out the info thats will be called
 			return  Math.round (dreamPower * 100);
 		}
 //Printing to console
 console.log(dreamVision);
 
 
-
+			//Setting if statment for conditional
 			if (dreamVision > 0 && dreamVision <= 10) {
 			
+			//Alerting user of 1st conditional variable statement
 			alert("Your Dream Visionairy Rating is" + " " + dreamVision);
+			
 			//Printing to console
 			console.log(dreamVision);
-
 			}
 
+			//Setting if statement for conditional
 			if (dreamVision > 10 && dreamVision < 50) {
 
+				//alerting user of 2nd conditional statemenr variable
 				alert("Your Dream Visionairy Rating is" + " " + dreamVision);
+				
 				//Printing to console
 				console.log(dreamVision);
 
+			//else if conditional statement for all other conditonal varibables not covered
 			}else{
 
+				//alert user of 3rd conditional statement for all other variables outside of the conditional statemenets above
 				alert("Your Dream Visionairy Rating is" + " " + dreamVision + "thats off the radar your definitly are a dreamer");
+				
 				//Printing to console
 				console.log(dreamVision);
-			}
+			};
 
 
 
