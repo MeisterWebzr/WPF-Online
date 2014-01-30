@@ -68,6 +68,6 @@ var totalProfit = calcProfit(income, expenses);
 	}else{
 
 		//alert user for all ther conditions with this else conditionals statement
-		
+		alert("You profited" + " " + income + " " );
 	}
 
