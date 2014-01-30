@@ -37,7 +37,7 @@
 		console.log(daysSlept);
 
 	}
-
+	//Validating the amount of hours sleep per day
 	while(! (falling > 0) ){
 
 	   //Prompting user for how many days they sleep
@@ -46,7 +46,7 @@
 
 	}
 
-
+	//Validating the amount of hours sleep per day
 	while(! (dreamMem > 0) ){
 
 	   //Prompting user for how many dreams the remember
