@@ -22,7 +22,6 @@ var calcGal, numberOfPeople, oz, days, ouncesPerGallon;
 	    
 	    //printing to console number of people entered into the prompt
 	    console.log(numberOfPeople);
-
         }
 
         //validating for null or zero with loop on days input
@@ -33,7 +32,6 @@ var calcGal, numberOfPeople, oz, days, ouncesPerGallon;
 	 	
 	 	//printing to console the number of days entered into the prompt
 	 	console.log(days);
-
         }
 
 //determining the variables for ounces per gallon
