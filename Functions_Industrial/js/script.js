@@ -14,7 +14,14 @@ Functions Industrial //Name of assignment
 //Determining the appropriate functions with givens and variables
 var calcGal, numberOfPeople, oz, days, ouncesPerGallon;
 
-var numberOfPeople = prompt("Enter the number of people in the house", " ");
+  
+		while(! (numberOfPeople > 0) ){
+
+	    numberOfPeople = prompt("Enter the number of people in the house", " ");
+	    console.log(numberOfPeople);
+
+  }
+
 var days = prompt("Enter the number of days you need water for", " ");
 var ouncesPerGallon = 128;
 var oz = 16;
