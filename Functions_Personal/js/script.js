@@ -12,4 +12,12 @@ Functions Industrial //Name of assignment
 
 
 //Determining the appropriate functions with givens and variables based on the parameters entered
-var profit, incomce, expenses;
+var profit, income, expenses;
+
+		//validating for null or zero input with loop
+		while(! (income > 0) ){
+
+
+
+
+		}
