@@ -55,6 +55,15 @@ var totalProfit = calcProfit(income, expenses);
 
 		//alerting user of conditional statement for total profit less than 1 dollar
 		alert("Your negative" + " " + "$" + totalProfit + " " + "Have a look at your marketing plan and review your expenses for ways to cut overhead. You won't make it too much longer without making a profit." )
-
+		console.log(totalProfit);
 	}
+	if (totalProfit >= 1 && totalProfit <= 1000) {
+
+		alert("Your profited" + "$" + totalProfit + " " + "not bad, but, you an do better than that. Try charging a bit more or cutting some overhead costs.")
+	};
+
+	if (expenses > income) {
+
+		
+	};
 
