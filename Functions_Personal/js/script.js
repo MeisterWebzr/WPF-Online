@@ -58,7 +58,7 @@ var totalProfit = calcProfit(income, expenses);
 		console.log(totalProfit);
 	}//if statement for condiontal operation of total profit
 	if (totalProfit >= 1 && totalProfit <= 1000) {
-
+		//alert for user to be notified of profit between 1 and 1000 dollars
 		alert("Your profited" + "$" + totalProfit + " " + "not bad, but, you an do better than that. Try charging a bit more or cutting some overhead costs.")
 	};
 	//if statement for condiontal operation of total profit
