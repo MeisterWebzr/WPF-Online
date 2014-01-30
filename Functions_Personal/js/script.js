@@ -63,7 +63,11 @@ var totalProfit = calcProfit(income, expenses);
 	};
 	//if statement for condiontal operation of total profit
 	if (expenses > income) {
-
+		//alert for user to be notified of profit between 1 and 1000 dollars
 		alert("Your expenses were" + " " + "$" + expenses + " " + "I suggest you eliminte your tedious expenses and cut overhead so you can turn a profit.")
-	};
+	}else{
+
+		//alert user for all ther conditions with this else conditionals statement
+		
+	}
 
