@@ -34,7 +34,9 @@ var calcGal, numberOfPeople, oz, days, ouncesPerGallon;
 
         }
 
+//determining the variables for ounces per gallon
 var ouncesPerGallon = 128;
+//determining the variable for ounces
 var oz = 16;
 
 
