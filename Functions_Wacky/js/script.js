@@ -2,7 +2,7 @@
 
 		Otto "Meister" Burroughs //Name of Student
 		Functions Wacky //Name of assignment 
-		1/30/2014 1:40 am // Date and time finished
+		1/30/2014 1:40 pm // Date and time finished
 
 */
 
