@@ -25,3 +25,11 @@ var total = calcGal(4, 16, 2, 128);
 		}
 
 	console.log(total);
+
+		if (total <= 1){
+
+			alert("You will need to order" + " " + total + " " + "gal");
+
+		}
+
+		
