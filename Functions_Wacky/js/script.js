@@ -7,7 +7,7 @@
 */
 
 /*
-		Calculate your DreamVision. This is the ability to see your dreams and create new ones.
+		Calculate your DreamVisionary Rating. This is the ability to see your dreams and create new ones.
 */
 
-//Formula: times you sleep per day * 
+//Formula: (hours slept per day * days slept) / (times driving a car * dreams remember) = DreamVisionairy Rating
