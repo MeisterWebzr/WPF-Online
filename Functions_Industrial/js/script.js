@@ -6,7 +6,7 @@ Functions Industrial //Name of assignment
 
 */
 //calculate how many gallons of water needed for your household to consume the least amount requrired reccommended by doctors
-//Formula: House hols stats (numberOfPeople * 16oz ) * (days) / (128) = gallonsOfWater needed
+//Formula: House hold stats (numberOfPeople * oz ) * (days) / (ouncesPerGallon) = tota gallons of water needed
 
 
 
