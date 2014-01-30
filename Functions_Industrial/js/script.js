@@ -12,10 +12,16 @@ Functions Industrial //Name of assignment
 
 
 //Determining the appropriate functions with givens and variables
+var calcGal, numberOfPeople, oz, days, ouncesPerGallon;
 
+var numberOfPeople = prompt("Enter the number of people in the house", " ");
+var days = prompt("Enter the number of days you need water for", " ");
+var ouncesPerGallon = 128;
+var oz = 16;
 
 
 var total = calcGal(numberOfPeople, oz, days, ouncesPerGallon); 
+
 
 
 
@@ -30,8 +36,21 @@ var total = calcGal(numberOfPeople, oz, days, ouncesPerGallon);
 
 		if (total <= 1){
 
-			alert("You will need to order" + " " + total + " " + "gal");
-
+			alert("You will need to order" + " " + total + " " + "gallon of water.");
+			console.log(total);
 		}
+		if (total >=2 && total <= 6) {
+
+			alert("You will need to order" + " " + total + " " + "gallons of water.")
+			console.log(total);
+		}else{
+
+			alert(total + " " + " gallons " + "WOW, thats allot of water!")
+			console.log(total);
+		}
+
+
+
+
 
 		
