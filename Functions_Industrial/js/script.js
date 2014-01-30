@@ -39,7 +39,7 @@ var ouncesPerGallon = 128;
 //determining the variable for ounces
 var oz = 16;
 
-
+//setting variable total for functions
 var total = calcGal(numberOfPeople, oz, days, ouncesPerGallon); 
 
 
@@ -47,6 +47,7 @@ var total = calcGal(numberOfPeople, oz, days, ouncesPerGallon);
 
 		//Setting the function for gallon calculation
 		function calcGal(numberOfPeople, oz, days, ouncesPerGallon){
+			//calculation of gallons per household
 			var gallons = (numberOfPeople * oz * days) / (ouncesPerGallon);
 			return gallons;
 			
