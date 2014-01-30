@@ -10,6 +10,15 @@
 		Calculate your DreamVisionary Rating. This is the ability to see your dreams and create new ones.
 */
 
-//Formula: (hours slept per day * days slept) / (times driving a car * dreams remember) = DreamVisionairy Rating
+//Formula: (hours slept per day * days slept) / (times falling * dreams remember) = DreamVisionairy Rating
 
 	alert("Calculate your DreamVisionary Rating. This is the ability to see your dreams and create new ones. Go ahead an click OK and well gather some infrormatiin");
+
+	var sleepHours, daysSlept, falling, dreamMem;
+
+
+	//Validating the amount of hours sleep per day
+	while (! (sleepHours > 0) ){
+
+		
+	}
