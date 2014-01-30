@@ -40,7 +40,7 @@
 	while(! (falling > 0) ){
 
 	   //Prompting user for how many days they sleep
-	   falling = prompt("How many hours do you sleep per day?", " ");
+	   falling = prompt("How many dreams do you have where your falling from the sky?", " ");
 	   console.log(falling);
 
 	}
@@ -63,11 +63,18 @@ var dreamVision = calcDV(daysSlept, sleepHours, falling, dreamMem);
 		function calcDV (daysSlept, sleepHours, falling, dreamMem){
 
 			var dreamPower = (daysSlept * sleepHours) / (falling + dreamMem);
-			return dreamPower;
+			return  Math.round (dreamPower * 100);
 		}
 
-console.log(dreamVision);
+console.log(dreamVision)
 
+
+
+	if (dreamVision > 0 && dreamVision <= 10) {
+	
+	alert("Your Dream Visionairy Rating is" + " " + dreamVision);
+
+	};
 
 
 
