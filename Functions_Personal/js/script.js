@@ -30,5 +30,11 @@ var profit, income, expenses;
 			//setting prompt input for expenses parameters
 			expenses = prompt("Enter your total expenses this month", " ")
 			console.log(expenses);
+		}
 
+		//setting the function for calculating profit
+		function calcProfit (income, expenses){
+
+			
+			
 		}
