@@ -32,9 +32,14 @@ var profit, income, expenses;
 			console.log(expenses);
 		}
 
+//Setting variable for totalProfit return for function		
+var totalProfit = calcProfit(income, expenses);
+
+
 		//setting the function for calculating profit
 		function calcProfit (income, expenses){
 
-			
-			
+			//calculation of proft based on income and expenses
+			var 
+
 		}
