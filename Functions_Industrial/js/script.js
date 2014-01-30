@@ -6,4 +6,22 @@ Functions Industrial //Name of assignment
 
 */
 //calculate how many gallons of water needed for your household to consume the least amount requrired reccommended by doctors
-//Formula: (numberOfPeople * 16oz ) * (days) / (128) = gallonsOfWater needed
+//Formula: House hols stats (numberOfPeople * 16oz ) * (days) / (128) = gallonsOfWater needed
+
+
+
+
+//Determining the appropriate functions with givens and variables
+
+
+
+var total = calcGal(4, 16, 2, 128)  
+var gallons
+
+		//Settingt the function for gallon calculation
+		function calcGal(numberOfPeople, oz, days, ozInGallon){
+			var gallons = numberOfPeople * oz * days / ozInGallon;
+			return gallons;
+		}
+
+		console.log(gallons);
