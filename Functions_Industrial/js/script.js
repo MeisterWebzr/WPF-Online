@@ -57,17 +57,25 @@ var total = calcGal(numberOfPeople, oz, days, ouncesPerGallon);
 
 		//if statement for condiontal operation of total
 		if (total <= 1){
-
+			
+			//alerting user of conditional statement for total gallons
 			alert("You will need to order" + " " + total + " " + "gallon of water.");
+			//printing to console the total
 			console.log(total);
-		}
+		
+		}//if statement for condiontal operation of total
 		if (total >=2 && total <= 20) {
-
+			//alerting user of conditional statement for total gallons
 			alert("You will need to order" + " " + total + " " + "gallons of water.")
+			//printing to console the total
 			console.log(total);
+		
+		//else statement for condiontal operation of total
 		}else{
 
+			//alerting user of conditional statement for total gallons
 			alert(total + " " + " gallons " + "WOW, thats allot of water!")
+			//printing to console the total
 			console.log(total);
 		}
 
