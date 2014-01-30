@@ -14,15 +14,25 @@ Functions Industrial //Name of assignment
 //Determining the appropriate functions with givens and variables
 var calcGal, numberOfPeople, oz, days, ouncesPerGallon;
 
-  
-		while(! (numberOfPeople > 0) ){
-
+  		//validating for null or zero with loop
+		while(! (numberOfPeople > 0) ){ 
+		
+		//Setting parameter input for number of people by user
 	    numberOfPeople = prompt("Enter the number of people in the house", " ");
+	    
+	    //printing to console number of people
 	    console.log(numberOfPeople);
 
-  }
+        }
 
-var days = prompt("Enter the number of days you need water for", " ");
+
+        
+  		while(! (days > 0) ){
+	 	days = prompt("Enter the number of days you need water for", " ");
+	 	console.log(days);
+
+        }
+
 var ouncesPerGallon = 128;
 var oz = 16;
 
@@ -32,7 +42,7 @@ var total = calcGal(numberOfPeople, oz, days, ouncesPerGallon);
 
 
 
-		//Settingt the function for gallon calculation
+		//Setting the function for gallon calculation
 		function calcGal(numberOfPeople, oz, days, ouncesPerGallon){
 			var gallons = (numberOfPeople * oz * days) / (ouncesPerGallon);
 			return gallons;
@@ -46,7 +56,7 @@ var total = calcGal(numberOfPeople, oz, days, ouncesPerGallon);
 			alert("You will need to order" + " " + total + " " + "gallon of water.");
 			console.log(total);
 		}
-		if (total >=2 && total <= 6) {
+		if (total >=2 && total <= 20) {
 
 			alert("You will need to order" + " " + total + " " + "gallons of water.")
 			console.log(total);
