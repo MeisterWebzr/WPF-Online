@@ -52,7 +52,7 @@ var total = calcGal(numberOfPeople, oz, days, ouncesPerGallon);
 			return gallons;
 			
 		}
-
+	//Printing to console the 
 	console.log(total);
 
 		if (total <= 1){
