@@ -20,6 +20,11 @@
 	//Validating the amount of hours sleep per day
 	while (! (sleepHours > 0) ){
 
+		//Prompting user for how many hours they sleep per day
 		prompt("How many hours do you sleep per day?", " ");
 		console.log(sleepHours);
 	}
+
+
+	//Validating the amount of hours sleep per day
+	while (! (daysSlept > 0) ){
