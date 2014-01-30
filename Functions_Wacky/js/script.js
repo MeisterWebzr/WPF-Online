@@ -12,8 +12,8 @@
 
 //Formula: (hours slept per day * days slept) / (times falling * dreams remember) = DreamVisionairy Rating
 
-	//firs alert to user for the definition of the calculator
-	alert("Calculate your DreamVisionary Rating. This is the ability to see your dreams and create new ones. Go ahead an click OK and well gather some infrormatiin");
+	//first alert to user for the definition of the calculator
+	alert("Calculate your DreamVisionary Rating. This is the ability to control your dreams. Go ahead an click OK and well gather some information");
 
 	//setting given variables
 	var sleepHours, daysSlept, falling, dreamMem;
@@ -23,7 +23,7 @@
 	while (! (sleepHours > 0) ){
 
 		//Prompting user for how many hours they sleep per day
-		prompt("How many hours do you sleep per day?", " ");
+		sleepHours = prompt("How many hours do you sleep per day?", " ");
 		console.log(sleepHours);
 	}
 
@@ -32,7 +32,7 @@
 	while (! (daysSlept > 0) ){
 
 		//Prompting user for how many days they sleep 
-		prompt("How many days do you sleep per month?", " ");
+		daysSlept = prompt("How many days do you sleep per month?", " ");
 		console.log(daysSlept);
 
 	}
@@ -40,7 +40,7 @@
 	while(! (falling > 0) ){
 
 	   //Prompting user for how many days they sleep
-	   prompt("How many hours do you sleep per day?", " ");
+	   falling = prompt("How many hours do you sleep per day?", " ");
 	   console.log(falling);
 
 	}
@@ -49,7 +49,7 @@
 	while(! (dreamMem > 0) ){
 
 	   //Prompting user for how many dreams the remember
-	   prompt("How many dreams do you remember?", " ");
+	   dreamMem = prompt("How many dreams do you remember?", " ");
 	   console.log(dreamMem);
 
 	}
