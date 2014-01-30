@@ -18,6 +18,9 @@ var profit, income, expenses;
 		while(! (income > 0) ){
 
 			//setting parameter input for income
-			income = prompt("How much did you make this month?", " ")
+			income = prompt("How much did you make this month?", " ");
+
+			//Printing input results form prompt to log
+			console.log(income);
 
 		}
