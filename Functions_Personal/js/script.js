@@ -14,7 +14,7 @@ Functions Industrial //Name of assignment
 //Determining the appropriate functions with givens and variables based on the parameters entered
 var profit, income, expenses;
 
-		//validating for null or zero input with loop
+		//validating for null or zero input with ( while ) loop.
 		while(! (income > 0) ){
 
 			//setting parameter input for income
@@ -22,5 +22,11 @@ var profit, income, expenses;
 
 			//Printing input results form prompt to log
 			console.log(income);
+		}
 
+		//validating for null or zero input with  ( while ) loop.
+		while(! (expenses > 0 ) ){
+
+
+			
 		}
