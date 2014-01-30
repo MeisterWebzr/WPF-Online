@@ -27,8 +27,10 @@ var calcGal, numberOfPeople, oz, days, ouncesPerGallon;
 
         //validating for null or zero with loop on days input
   		while(! (days > 0) ){
+	 	
 	 	//Setting parameter input for use to input number of days water is needed
 	 	days = prompt("Enter the number of days you need water for", " ");
+	 	
 	 	//printing to console the number of days entered into the prompt
 	 	console.log(days);
 
