@@ -56,7 +56,15 @@
 
 
 //Setting variable for Dream Vision return
-var = dreamVision = calcDV(daysSlept, sleepHours, falling, dreamMem);
+var dreamVision = calcDV(daysSlept, sleepHours, falling, dreamMem);
+
+
+		//Setup of function
+		function calcDV (daysSlept, sleepHours, falling, dreamMem){
+
+			var dreamPower = (daysSlept * sleepHours) / (falling + dreamMem);
+			return dreamPower;
+		}
 
 
 
