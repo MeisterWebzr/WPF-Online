@@ -2,7 +2,7 @@
 
 Otto "Meister" Burroughs //Name of Student
 Functions Industrial //Name of assignment 
-1/29/2014 // Date
+1/29/2014 7:14pm // Date and time finished
 
 */
 //calculate how many gallons of water needed for your household to consume the least amount requrired reccommended by doctors
