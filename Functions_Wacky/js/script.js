@@ -12,9 +12,10 @@
 
 //Formula: (hours slept per day * days slept) / (times falling * dreams remember) = DreamVisionairy Rating
 
+/*
 	//first alert to user for the definition of the calculator
 	alert("Calculate your DreamVisionary Rating. This is the ability to control your dreams. Go ahead an click OK and well gather some information");
-
+*/
 	//setting given variables
 	var sleepHours, daysSlept, falling, dreamMem;
 
@@ -62,19 +63,27 @@ var dreamVision = calcDV(daysSlept, sleepHours, falling, dreamMem);
 		//Setup of function
 		function calcDV (daysSlept, sleepHours, falling, dreamMem){
 
-			var dreamPower = (daysSlept * sleepHours) / (falling + dreamMem);
+			var dreamPower = (daysSlept * sleepHours) / (falling * dreamMem);
 			return  Math.round (dreamPower * 100);
 		}
 
-console.log(dreamVision)
+console.log(dreamVision);
 
 
 
-	if (dreamVision > 0 && dreamVision <= 10) {
-	
-	alert("Your Dream Visionairy Rating is" + " " + dreamVision);
+			if (dreamVision > 0 && dreamVision <= 10) {
+			
+			alert("Your Dream Visionairy Rating is" + " " + dreamVision);
 
-	};
+			}
+
+			if (dreamVision > 10 && dreamVision < 50) {
+
+				alert("Your Dream Visionairy Rating is" + " " + dreamVision);
+			}else{
+
+				alert("Your Dream Visionairy Rating is" + " " + dreamVision + "thats off the radar your definitly are a dreamer");
+			}
 
 
 
