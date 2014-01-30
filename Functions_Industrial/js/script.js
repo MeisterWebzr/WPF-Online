@@ -7,3 +7,16 @@ Functions| Industrial
 */
 
 
+//calculate the amount of dog food to order
+
+
+	
+
+  alert("Hello, you should drink a min of 8oz's of water per day");
+
+	function calWater (drinkingWater)
+
+	{
+		var prompt("Hello, you should drink a min of 8oz's of water per day");;
+		var 
+	}
