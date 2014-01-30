@@ -53,6 +53,7 @@ function functionName(){
 */
 
 /*
+
 function outptMsg(){
 	//print message to world
 	console.log("Hello World, this is functions in javascript");
@@ -117,7 +118,7 @@ funcName(argument1, argument2);
 
 ////////////////////////////Storage container | parameters
 
-/*
+
 			function dogYears(age){
 
 				var dogYears = age * 7;
@@ -128,13 +129,13 @@ funcName(argument1, argument2);
 			dogYears(4); //passing the value 4 to age //arguments
 			dogYears(5); //passing the value 5 to age
 
-*/
+
 
 
 /////////////////////////// Returning Values | getting values back from warehouse or function
 
 
-/*
+
 			var total = calcArea(30, 20);
 
 			//This is a function
@@ -152,8 +153,8 @@ funcName(argument1, argument2);
 			}
 
 
-			console.log(area);
-*/
+			console.log(total);
+
 
 
 

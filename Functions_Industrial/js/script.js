@@ -15,13 +15,13 @@ Functions Industrial //Name of assignment
 
 
 
-var total = calcGal(4, 16, 2, 128)  
-var gallons
+var total = calcGal(4, 16); 
 
 		//Settingt the function for gallon calculation
-		function calcGal(numberOfPeople, oz, days, ozInGallon){
-			var gallons = numberOfPeople * oz * days / ozInGallon;
+		function calcGal(numberOfPeople, oz){
+			var gallons = numberOfPeople * oz;
 			return gallons;
+			
 		}
 
-		console.log(gallons);
+	console.log(total);
